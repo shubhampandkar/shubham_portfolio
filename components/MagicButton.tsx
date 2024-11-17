@@ -22,7 +22,7 @@ const MagicButton = ({
   otherClasses?: string;
 }) => {
   const downloadResume = () => {
-    const resumeUrl = 'https://drive.google.com/file/d/1aVdRFOkUZgjor3lS4KUbBTb9E0SOqxX8/view'; // Replace with your actual resume PDF URL
+    const resumeUrl = 'https://drive.google.com/file/d/1es58PcuyxN-rB6IZXPlDvHG6h4fyFasH/view'; // Replace with your actual resume PDF URL
     const link = document.createElement('a');
     window.open(resumeUrl, '_blank');
     link.download = 'ShubhamPandkarResume.pdf'; // This will trigger the download with the specified filename

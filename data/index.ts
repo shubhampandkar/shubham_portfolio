@@ -14,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] p-6",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/img201.jpg",
+    img: "./img201.jpg",
     spareImg: "",
   },
   {
@@ -34,8 +34,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
-    img: "/chess1.jpg",
-    spareImg: "/grid.svg",
+    img: "./chess1.jpg",
+    spareImg: "./grid.svg",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
+    img: "./grid.svg",
     spareImg: "",
   },
 
@@ -55,7 +55,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "techstack.jpg",
+    img: "./techstack.jpg",
     spareImg: "",
   },
   {
@@ -75,32 +75,32 @@ export const projects = [
     id: 1,
     title: "Book Recommendation System",
     des: "Explore the top 10 recommended books based on search criteria.",
-    img: "/books.jpg",
-    iconLists: ["/python.svg", "/nlp.svg", "/heroku.svg", "/jupyter.svg","sklearn.svg"],
+    img: "./books.jpg",
+    iconLists: ["./python.svg", "./nlp.svg", "./heroku.svg", "./jupyter.svg","./sklearn.svg"],
     link: "https://github.com/shubhampandkar/shubhampandkar/tree/main/Personal%20Programming%20Projects/Book-Recommendation-System",
   },
   {
     id: 2,
     title: "Quora Question Pair",
     des: "Predicting if questions posted on quora has similar exxsting question pair.",
-    img: "/quora.svg",
-    iconLists: ["/python.svg", "/nlp.svg", "/jupyter.svg"],
+    img: "./quora.svg",
+    iconLists: ["./python.svg", "./nlp.svg", "./jupyter.svg"],
     link: "https://github.com/shubhampandkar/shubhampandkar/tree/main/Personal%20Programming%20Projects/Quora_Question_pair",
   },
   {
     id: 3,
     title: "Heart Disease Prediction",
     des: "Identifying if a person will have a heart disease in 10 years based on health information.",
-    img: "/img2k99.jpg",
-    iconLists: ["/python.svg", "/jupyter.svg", "/sklearn.svg", "/Streamlit.svg"],
+    img: "./img2k99.jpg",
+    iconLists: ["./python.svg", "./jupyter.svg", "./sklearn.svg", "./Streamlit.svg"],
     link: "https://github.com/shubhampandkar/shubhampandkar/tree/main/Personal%20Programming%20Projects/Heart%20Disease%20Detection",
   },
   {
     id: 4,
     title: "Calibrating Credibility of COVID-19 Tweets",
     des: "Tableau Dashboard with senttment analysis on how COVID tweets are distributed.",
-    img: "/tweets.jpg",
-    iconLists: ["/python.svg", "/tableau.svg", "/viz.svg"],
+    img: "./tweets.jpg",
+    iconLists: ["./python.svg", "./tableau.svg", "./viz.svg"],
     link: "https://public.tableau.com/app/profile/shubham.rajan.pandkar/viz/Covid19TweetsCredibility-2/Other",
   },
 ];
@@ -151,7 +151,7 @@ export const workExperience = [
       "Presented detailed reports on consumer behavior analysis findings to executive teams, outlining the top three contributing factors to increased customer complaints and recommending actionable strategies for improvement with proven success in driving a 5% increase in overall customer satisfaction rates."
     ],
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
   },
   {
     id: 2,
@@ -161,7 +161,7 @@ export const workExperience = [
     "Devised a new business process to resolve custom data analysis and conversion requests for standardizing data quality checks, increasing efficiency by 40%.", 
     "Collaborated with cross-functional teams to test and validate the statistical model's effectiveness, resulting in a 20% reduction in false positives during site selection processes."],
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
   {
     id: 3,
@@ -170,7 +170,7 @@ export const workExperience = [
     "Teamed and engineered routing algorithm, integrating with existing systems to expedite approvals by 30%, benefiting members.",
     "Built an ETL platform for automatic text extraction from adjudication and accuracy reports, removing manual intervention.","Proposed and implemented Tableau dashboards for real-time insights on claims processing, member satisfaction, and network performance, improving operational visibility for leadership."],
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/infosys.svg",
+    thumbnail: "./infosys.svg",
   },
   
 ];
@@ -184,19 +184,19 @@ export interface SocialMediaLink {
 export const socialMedia: SocialMediaLink[] = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
     url: "https://github.com/shubhampandkar",
     altText: "GitHub",
   },
   {
     id: 2,
-    img: "/tableau.svg",
+    img: "./tableau.svg",
     url: "https://public.tableau.com/app/profile/shubham.rajan.pandkar/vizzes",
     altText: "Tableau",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
     url: "https://www.linkedin.com/in/shubhampandkar/",
     altText: "LinkedIn",
   },
